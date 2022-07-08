@@ -18,8 +18,7 @@ function App() {
           <Route exact path="/educacao" element={ <Educacao /> } />
           <Route exact path="/experiencia" element={ <Experiencia /> } />
           <Route exact path="/habilidades" element={ <Habilidades /> } />
-        </Routes>
-        
+        </Routes>        
       </BrowserRouter>
     </>
   );

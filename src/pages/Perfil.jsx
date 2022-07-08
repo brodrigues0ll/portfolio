@@ -1,7 +1,9 @@
 function Perfil() {
   return (
-    <h1>Perfil</h1>
+    <>
+      <h1>Perfil</h1>
+    </>
   )
 }
 
-export default Perfil
+export default Perfil;
