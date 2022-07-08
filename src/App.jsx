@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Perfil from './pages/Perfil';
@@ -6,12 +7,11 @@ import Educacao from './pages/Educacao';
 import Experiencia from './pages/Experiencia';
 import Habilidades from './pages/Habilidades';
 
-
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-fill"></div>
-      <div className="bg-image"></div>
+      <div className="bg-fill" />
+      <div className="bg-image" />
 
       <div className="card-container">
         <div className="card">
