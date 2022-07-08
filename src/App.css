@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-fill {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: absolute;
+}
+
+.bg-image {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://github.com/brodrigues0ll/portifolio/blob/main/src/images/bg-image.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  position: absolute;
+}
+
+.card-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 90vh;
+  width: 35vw;
+  background-color: red;
+  position: absolute;
+}

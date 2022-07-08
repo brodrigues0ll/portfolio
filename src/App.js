@@ -9,18 +9,22 @@ import Habilidades from './pages/Habilidades';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <h1>Portifolio</h1>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={ <Perfil /> } />
-          <Route exact path="/educacao" element={ <Educacao /> } />
-          <Route exact path="/experiencia" element={ <Experiencia /> } />
-          <Route exact path="/habilidades" element={ <Habilidades /> } />
-        </Routes>        
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <div className="bg-fill"></div>
+      <div className="bg-image"></div>
+
+      <div className="card-container">
+        <div className="card">
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<Perfil />} />
+            <Route exact path="/educacao" element={<Educacao />} />
+            <Route exact path="/experiencia" element={<Experiencia />} />
+            <Route exact path="/habilidades" element={<Habilidades />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
