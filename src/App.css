@@ -31,7 +31,11 @@
 
 .card {
   height: 90vh;
-  width: 35vw;
-  background-color: red;
+  width: 32vw;
+  background-color: rgba(22, 21, 19, 0.9);
   position: absolute;
+  border-radius: 5px;
+  box-shadow: 5px 8px 15px black;
+
+  color: white;
 }
