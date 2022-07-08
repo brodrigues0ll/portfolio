@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 10%;
+  width: 100%;
+  /* background-color: salmon; */
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  
+
+  margin: 0rem 0rem 0.2rem 0rem; 
+
+  padding: 0.5rem 0.4rem 0rem 0.4rem;
+
+}
+
+.jet-icon {
+  transform: rotate(90deg);
+}
+
+.active {
+  background-color: rgb(23, 231, 164);
+  
+}
