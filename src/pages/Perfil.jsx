@@ -11,13 +11,13 @@ function Perfil() {
         <h1 className="name">Bernardo Rodrigues</h1>
         <p>
           Nascido e criado em
-          <a href="as"> Córrego do Ouro</a>
+          <a href="/"> Córrego do Ouro</a>
           , região serrana da cidade de
-          <a href="as"> Macaé - Rio de Janeiro</a>
+          <a href="/"> Macaé - Rio de Janeiro</a>
           . Curioso tecnologicamente, querendo saber sempre como as coisas funcionavam, ganhei meu
           primeiro computador aos 8 anos de idade e desde então sou apaixonado por computação.
           Hoje aos 22 anos sou aluno na
-          <a href="as"> Trybe </a>
+          <a href="/"> Trybe </a>
           instituição de ensino de desenvolvimento web.
         </p>
       </section>

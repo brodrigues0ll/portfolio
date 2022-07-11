@@ -3,9 +3,16 @@ footer {
 
   text-align: center;
   font-size: 10px;
-  margin: 10px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+footer p {
+  background-color: rgba(0, 0, 0, 0.4);
+
+  padding: 0.4rem 6rem 0.4rem 6rem;
+
+  color: #7c7c7c;
 }
