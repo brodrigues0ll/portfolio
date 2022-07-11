@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Educacao from './pages/Educacao';
 import Experiencia from './pages/Experiencia';
 import Habilidades from './pages/Habilidades';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route exact path="/experiencia" element={<Experiencia />} />
             <Route exact path="/habilidades" element={<Habilidades />} />
           </Routes>
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

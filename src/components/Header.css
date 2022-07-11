@@ -9,12 +9,14 @@ nav {
   margin-bottom: 25px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
+
+  font-weight: 300;
 
 }
 
-a {
+nav a {
   color: white;
   text-decoration: none;
   border-bottom-left-radius: 5px;
@@ -31,19 +33,21 @@ a {
 
 }
 
-a:hover {
-  background-color: rgb(0, 117, 80);
+nav a:hover {
+  background-color: #007550;
 }
 
 .active {
-  background-color: rgb(23, 231, 164);
+  background-color: #0faf80;
 
 }
 
-svg {
+nav svg {
   width: 40px;
   height: 40px;
   fill: #908F90;
+
+  padding: 10px;
 }
 
 .active svg {
