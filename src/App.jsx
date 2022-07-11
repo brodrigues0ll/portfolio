@@ -14,7 +14,7 @@ function App() {
       <div className="bg-fill" />
       <div className="bg-image" />
 
-      <div className="card-container">
+      <div className="card-container disable-select">
         <div className="card">
           <Header />
           <Routes>
