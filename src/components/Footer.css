@@ -15,4 +15,8 @@ footer p {
   padding: 0.4rem 6rem 0.4rem 6rem;
 
   color: #7c7c7c;
+
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
 }
