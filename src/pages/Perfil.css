@@ -63,3 +63,22 @@ main .article-text-two {
   color: #908F90;
 
 }
+
+.article-social {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main svg {
+  width: 25px;
+  height: 25px;
+  padding: 0.5rem;
+
+  fill: #908F90;
+}
+
+main svg:hover {
+  fill: #fff;
+}
