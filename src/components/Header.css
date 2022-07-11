@@ -23,19 +23,19 @@ a {
 
   display: flex;
   flex-direction: column;
-  
 
-  margin: 0rem 0rem 0.2rem 0rem; 
+
+  margin: 0rem 0rem 0.2rem 0rem;
 
   padding: 0.5rem 0.4rem 0rem 0.4rem;
 
 }
 
-.jet-icon {
-  transform: rotate(90deg);
+a:hover {
+  background-color: rgb(0, 117, 80);
 }
 
 .active {
   background-color: rgb(23, 231, 164);
-  
+
 }

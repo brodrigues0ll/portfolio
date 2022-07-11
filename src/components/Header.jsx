@@ -1,14 +1,18 @@
 import React from 'react';
-
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+
+import Profile from '../images/navbar/edit-profile.svg';
+import Cap from '../images/navbar/graduation-cap.svg';
+import Necktie from '../images/navbar/necktie.svg';
+import Jet from '../images/navbar/jet-with-arms.svg';
 
 function Header() {
   return (
     <nav>
       <NavLink to="/">
         <img
-          src="https://raw.githubusercontent.com/brodrigues0ll/portifolio/ba3b7b4024d26aa3ffbc7c95b75ab5bad29c4232/src/images/navbar/edit-profile.svg"
+          src={Profile}
           alt="profle-icon"
           height="40"
         />
@@ -17,7 +21,7 @@ function Header() {
 
       <NavLink to="/educacao">
         <img
-          src="https://raw.githubusercontent.com/brodrigues0ll/portifolio/ba3b7b4024d26aa3ffbc7c95b75ab5bad29c4232/src/images/navbar/graduation-cap.svg"
+          src={Cap}
           alt="graduation-cap-icon"
           height="40"
         />
@@ -26,7 +30,7 @@ function Header() {
 
       <NavLink to="/experiencia">
         <img
-          src="https://raw.githubusercontent.com/brodrigues0ll/portifolio/ba3b7b4024d26aa3ffbc7c95b75ab5bad29c4232/src/images/navbar/necktie.svg"
+          src={Necktie}
           alt="necktie-icon"
           height="40"
         />
@@ -35,10 +39,9 @@ function Header() {
 
       <NavLink to="/habilidades">
         <img
-          src="https://raw.githubusercontent.com/brodrigues0ll/portifolio/ba3b7b4024d26aa3ffbc7c95b75ab5bad29c4232/src/images/navbar/jet-with-arms.svg"
+          src={Jet}
           alt="jet-with-arms-icon"
           height="40"
-          className="jet-icon"
         />
         Habilidades
       </NavLink>
