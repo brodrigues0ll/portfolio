@@ -22,7 +22,7 @@ function Perfil() {
         </p>
       </section>
       <div className="article-container">
-        <article className="article-number">4</article>
+        <article className="article-number">5</article>
         <div className="article-text">
           <article className="article-text-one">Meses que sou aluno da Trybe</article>
           <article className="article-text-two">Em breve um Web Developer FullStack.</article>
