@@ -14,7 +14,8 @@ nav {
 
   font-weight: 300;
 
-  
+  /* position: fixed; */
+
 }
 
 nav a {
@@ -26,7 +27,6 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 
   margin: 0rem 0rem 0.2rem 0rem;
 
@@ -53,4 +53,23 @@ nav svg {
 
 .active svg {
   fill: white;
+}
+
+/* MEDIAQUERY 480PX */
+
+@media (max-width: 480px) {
+
+  nav a {
+    margin: 0 0 0 0;
+
+    padding: 0rem 0.4rem 0rem 0.4rem;
+  }
+
+  nav svg {
+    width: 30px;
+    height: 30px;
+    fill: #908F90;
+
+    padding: 5px;
+  }
 }

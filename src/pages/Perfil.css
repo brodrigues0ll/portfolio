@@ -6,6 +6,7 @@ main {
   justify-content: center;
 
   margin-bottom: 2rem;
+  /* margin-top: 5rem; */
 }
 
 main img {
@@ -81,4 +82,50 @@ main svg {
 
 main svg:hover {
   fill: #fff;
+}
+
+/* MEDIAQUERY 480PX */
+
+@media (max-width: 480px) {
+  main {
+    margin-bottom: 0.8rem;
+  }
+
+  main img {
+    border-radius: 100%;
+    margin: 1rem;
+    height: 10rem;
+  }
+
+  section {
+    font-size: 15px;
+  }
+
+  main .article-number {
+    font-size: 4rem;
+    color: #17E7A4;
+
+  }
+
+  main .article-text-one {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  main .article-text-two {
+    font-size: 12px;
+    color: #908F90;
+
+  }
+
+  main svg {
+    width: 25px;
+    height: 25px;
+    padding: 0 0 0 0;
+  }
+
+  .article-social {
+    margin-top: 1.3rem;
+  }
+
 }
