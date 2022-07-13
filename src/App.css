@@ -43,6 +43,14 @@
   overflow: auto;
 }
 
+/* MEDIAQUERY 480PX */
+
+@media (max-width: 480px) {
+  .card {
+    padding: 0rem 0.3rem 0rem 0.3rem;
+  }
+}
+
 .disable-select {
   /* supported by Chrome and Opera */
   user-select: none;

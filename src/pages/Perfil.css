@@ -99,6 +99,7 @@ main svg:hover {
 
   section {
     font-size: 15px;
+    max-width: 300px;
   }
 
   main .article-number {
@@ -126,6 +127,11 @@ main svg:hover {
 
   .article-social {
     margin-top: 1.3rem;
+  }
+
+  main .article-container {
+    width: 100%;
+    margin: 0.3rem 0 0 0;
   }
 
 }
