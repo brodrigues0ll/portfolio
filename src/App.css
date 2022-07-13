@@ -47,8 +47,6 @@
 
 @media (max-width: 480px) {
   .card {
-    padding: 0rem 0.3rem 0rem 0.3rem;
-
     margin-top: -1rem;
   }
 }
