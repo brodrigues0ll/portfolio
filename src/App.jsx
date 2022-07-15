@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Perfil from './pages/Perfil';
 import Header from './components/Header';
 import Educacao from './pages/Educacao';
@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
       <div className="bg-fill" />
       <div className="bg-image" />
 
@@ -26,7 +25,6 @@ function App() {
           <Footer />
         </div>
       </div>
-    </BrowserRouter>
   );
 }
 
