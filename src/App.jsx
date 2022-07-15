@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Perfil from './pages/Perfil';
 import Header from './components/Header';
 import Educacao from './pages/Educacao';
@@ -17,12 +17,12 @@ function App() {
       <div className="card-container disable-select">
         <div className="card">
           <Header />
-          <Routes>
+          <Switch>
             <Route exact path="/" element={<Perfil />} />
             <Route exact path="/educacao" element={<Educacao />} />
             <Route exact path="/experiencia" element={<Experiencia />} />
             <Route exact path="/habilidades" element={<Habilidades />} />
-          </Routes>
+          </Switch>
           <Footer />
         </div>
       </div>
