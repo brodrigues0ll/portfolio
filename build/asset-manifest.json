@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fe41bdb.css",
-    "main.js": "/static/js/main.762104d0.js",
+    "main.css": "/static/css/main.80674c14.css",
+    "main.js": "/static/js/main.1848756a.js",
+    "static/media/brodrigues-profile-image.jpg": "/static/media/brodrigues-profile-image.6c98698bc75f343a6c39.jpg",
+    "static/media/bg-image.jpg": "/static/media/bg-image.d774eeadbe9808e77232.jpg",
     "index.html": "/index.html",
-    "main.3fe41bdb.css.map": "/static/css/main.3fe41bdb.css.map",
-    "main.762104d0.js.map": "/static/js/main.762104d0.js.map"
+    "main.80674c14.css.map": "/static/css/main.80674c14.css.map",
+    "main.1848756a.js.map": "/static/js/main.1848756a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fe41bdb.css",
-    "static/js/main.762104d0.js"
+    "static/css/main.80674c14.css",
+    "static/js/main.1848756a.js"
   ]
 }
