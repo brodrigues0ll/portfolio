@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch as Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Perfil from './pages/Perfil';
 import Header from './components/Header';
 import Educacao from './pages/Educacao';
