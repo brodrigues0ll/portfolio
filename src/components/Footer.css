@@ -1,26 +1,7 @@
-footer {
-  width: 100%;
-
-  background-color: rgba(0, 0, 0, 0.4);
-
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-
-  padding: 0.5rem 0 0.5rem 0;
-
-}
-
-footer p {
-  font-size: 12px;
-  text-align: center;
-  color: rgb(100, 100, 100);
-}
-
-/* MEDIAQUERY 480PX */
-
-@media (max-width: 480px) {
-  footer p {
-    font-size: 10px;
+@media screen and ( max-width : 400px ){
+  
+  footer {
+    position: fixed;
+    bottom: 0;
   }
-
 }

@@ -2,7 +2,9 @@ import React from 'react';
 
 function Experiencia() {
   return (
-    <h1>Experiencia</h1>
+    <main>
+      <h1>Experiencia</h1>
+    </main>
   );
 }
 

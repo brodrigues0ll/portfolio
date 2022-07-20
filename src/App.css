@@ -3,52 +3,27 @@
 * {
   margin: 0;
   font-family: 'Roboto';
-}
-
-.bg-fill {
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  position: absolute;
+  color: white;
 }
 
 .bg-image {
-  height: 100vh;
-  width: 100vw;
   background-image: url("./images/bg-image.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  filter: blur(5px);
-  position: absolute;
-}
-
-.card-container {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  width: 90vw;
-  max-width: 506px;
+  width: 100vw;
   position: absolute;
-  background-color: rgba(22, 21, 19, 0.9);
-  border-radius: 8px;
-  box-shadow: 5px 8px 15px black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: auto;
 }
 
-/* MEDIAQUERY 480PX */
-
-@media (max-width: 480px) {
+@media screen and ( max-width : 400px ) {
   .card {
-    margin-top: -1rem;
+    overflow: hidden;
+    position: fixed;
   }
+  
+}
+
+main {
+  padding: 70px 0 60px;
 }
 
 .disable-select {
